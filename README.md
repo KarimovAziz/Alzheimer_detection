@@ -16,7 +16,7 @@ Early detection of Alzheimer's is critical for effective patient management. Thi
 
 ## 📊 Dataset
 
-The model was trained on the Alzheimer's Multiclass Dataset from Kaggle.
+The model was trained on [the Alzheimer's Multiclass Dataset](https://www.kaggle.com/datasets/aryansinghal10/alzheimers-multiclass-dataset-equal-and-augmented) from Kaggle.
 
 •	Volume: 44,000 JPG images.
 
