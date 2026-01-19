@@ -40,20 +40,20 @@ I utilized the EfficientNet-B0 architecture, known for its optimal balance betwe
 
 The model achieved state-of-the-art results on the test set:
 
-•	**Test Accuracy**: 99%
+•	**Test Accuracy**: 99.4%
 
-•	**Test Loss**: 0.033
+•	**Test Loss**: 0.019
 
 •	**Train Accuracy**: 99.8%
 
 ## Confusion Matrix Analysis
 
-The confusion matrix demonstrates an exceptional classification performance with high precision across all stages:
+This Confusion Matrix demonstrates that the model operates with exceptionally high precision across all stages:
 
-•	**Mild Demented**: 2,494 correct predictions with only 6 minor misclassifications.
+•	**Mild Demented**: 2,496 cases were correctly predicted. Only 4 instances of misclassification were observed (1 as Moderate and 3 as Very Mild).
 
-•	**Moderate Demented**: Near-perfect detection with 2,499 correct predictions out of 2,500.
+•	**Moderate Demented**: Perfect result. All 2,500 cases were identified without error. This indicates that the model excels at distinguishing the specific features unique to this stage.
 
-•	**Non-Demented**: 2,456 correct predictions. A minor overlap of 32 cases is observed with Very Mild Demented, which is medically expected due to the subtle physiological transitions between healthy and early-stage Alzheimer's in clinical practice.
+•	**Non-Demented**: 2,478 cases were correctly identified. A confusion with "Very Mild Demented" occurred in 22 cases. This is medically expected, as the physiological transitions from a healthy state to the early stages of dementia are often very subtle.
 
-•	**Very Mild Demented**: 2,485 successful classifications, showing strong model robustness.
+•	**Very Mild Demented**: 2,477 successful classifications. Minor overlaps were primarily identified with "Non-Demented" (19 cases) and "Mild Demented" (4 cases).
